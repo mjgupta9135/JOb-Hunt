@@ -5,10 +5,6 @@ import { useDispatch } from "react-redux";
 import { setSearchQuery } from "@/slices/jobSlice";
 const filterData = [
   {
-    filterType: "Location",
-    array: ["Delhi NCR", "Banglore", "Hyderabad", "Pune", "Mumbai", "Chennai"],
-  },
-  {
     filterType: "Industry",
     array: [
       "Frontend Developer",
